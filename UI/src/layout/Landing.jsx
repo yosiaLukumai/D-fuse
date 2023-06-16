@@ -99,12 +99,12 @@ export const Landing = () => {
                 <div className="pageHolder">
                     <div className={screenSize.width > 630 ? "descPage" : "hide"} >
                         <div className="centerImage"><img className="imageResponsive" src={meterPng} alt="Meter png" /></div>
-                        <div className="captionText">D-fuse</div>
+                        <div className="captionText">Must-fuse</div>
                     </div>
                     <div className={screenSize.width > 630 ? "actionPage" : "row container s12 now"} >
                         <div >
                             <div className={screenSize.width > 630 ? "hide" : "subTexts"} >
-                                <h4 className="subTexts">D-fuse</h4>
+                                <h4 className="subTexts">Must-fuse</h4>
                         <div className="textSuccFail">{error}</div>
                             </div>
                             <div>

@@ -33,7 +33,7 @@ const router  = createBrowserRouter([
     ]
     
   }
-], {basename:"/D-fuse"})
+], {basename:"/M-fuse"})
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router} />
